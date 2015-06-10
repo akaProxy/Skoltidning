@@ -1,0 +1,29 @@
+﻿header,footer {
+	text-align:center;
+}
+
+main {
+	width:65%;
+	margin-left:auto;
+	margin-right:auto;
+	/*Whitespace på sidorna av content är den sanna vägen*/
+}
+
+main * {
+	text-align:center;
+}
+#mainHead {
+	text-align:center;
+}
+
+#sideNav {
+	position:absolute;
+	width:auto;
+	height:auto;
+	top:0;
+	left:0;
+	background-color:purple;
+	border:2px;
+	border-style:solid;
+	border-color:black;
+}
