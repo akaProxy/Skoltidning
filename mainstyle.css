@@ -1,5 +1,12 @@
-﻿header,footer {
+﻿body, html {
+	margin:0px;
+	width:100%;
+	height:100%;
+}
+
+header, footer, #topNav {
 	text-align:center;
+	font-family:Verdana, sans-serif;
 }
 
 main {
@@ -20,9 +27,7 @@ main * {
 	border-width:1px 0px;
 	border-style:solid;
 	border-color:#ccc;
-	font-family:Verdana;
 	list-style:none;
-	text-align:center;
 	
 }
 
@@ -39,6 +44,14 @@ main * {
 	
 	/*transition:width 0.5s;
 	-webkit-transition: width 0.5s; /* Safari 3.1 to 6.0 */
+}
+
+footer {
+	background-color:#D7D7D7;
+	margin:0px;
+	position:absolute;
+	bottom:0px;
+	width:100%;
 }
 
 /*#topNav li:hover {
