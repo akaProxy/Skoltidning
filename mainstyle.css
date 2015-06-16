@@ -38,14 +38,8 @@ main * {
 }
 
 #topNav a {
-	/*border:1px;
-	border-color:black;
-	border-style:solid;*/
 	display:inline-block;
 	padding:1em;
-	
-	/*transition:width 0.5s;
-	-webkit-transition: width 0.5s; /* Safari 3.1 to 6.0 */
 }
 
 footer {
@@ -59,7 +53,3 @@ footer {
 main p {
 	text-align:left;
 }
-
-/*#topNav li:hover {
-	width:100%;
-}*/
