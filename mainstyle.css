@@ -16,14 +16,31 @@ main * {
 	text-align:center;
 }
 
-#sideNav {
-	position:absolute;
-	width:auto;
-	height:auto;
-	top:0;
-	left:0;
-	background-color:purple;
-	border:2px;
+#topNav {
+	border-width:1px 0px;
 	border-style:solid;
-	border-color:black;
+	border-color:#ccc;
+	font-family:Verdana;
+	list-style:none;
+	text-align:center;
+	
 }
+
+#topNav li {
+	display:inline;
+}
+
+#topNav a {
+	/*border:1px;
+	border-color:black;
+	border-style:solid;*/
+	display:inline-block;
+	padding:1em;
+	
+	/*transition:width 0.5s;
+	-webkit-transition: width 0.5s; /* Safari 3.1 to 6.0 */
+}
+
+/*#topNav li:hover {
+	width:100%;
+}*/
