@@ -1,7 +1,11 @@
 ﻿body, html {
 	margin:0px;
 	width:100%;
-	height:100%;
+	
+}
+
+main * {
+	font-family:Georgia, serif
 }
 
 header, footer, #topNav {
@@ -19,9 +23,7 @@ main {
 main * {
 	text-align:center;
 }
-#mainHead {
-	text-align:center;
-}
+
 
 #topNav {
 	border-width:1px 0px;
@@ -48,10 +50,14 @@ main * {
 
 footer {
 	background-color:#D7D7D7;
+	display:block;
+	padding:1em 0em;
 	margin:0px;
-	position:absolute;
-	bottom:0px;
 	width:100%;
+}
+
+main p {
+	text-align:left;
 }
 
 /*#topNav li:hover {
